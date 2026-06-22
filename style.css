@@ -10,7 +10,7 @@ body {
 
 /* ── Modo escuro (ativado pelo JS) ── */
 body.escuro {
-  background-color: #FFF000;
+  background-color: #fff000;
   color: #800080;
 }
 
