@@ -10,8 +10,8 @@ body {
 
 /* ── Modo escuro (ativado pelo JS) ── */
 body.escuro {
-  background-color: #1a1a2e;
-  color: #e0e0e0;
+  background-color: #FFF000;
+  color: #800080;
 }
 
 /* ── Header ── */
