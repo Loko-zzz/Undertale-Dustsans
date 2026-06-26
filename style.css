@@ -9,7 +9,7 @@ body {
 }
 
 /* ── Modo escuro (ativado pelo JS) ── */
-body.escuro {
+body.Killer {
   background-color: #red;
   color: #purple;
 }
@@ -32,7 +32,7 @@ header p {
   margin-top: 6px;
 }
 
-body.escuro header p {
+body.Killer header p {
   color: #aaaaaa;
 }
 
@@ -61,7 +61,7 @@ article {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-body.escuro article {
+body.Killer article {
   background-color: #16213e;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
