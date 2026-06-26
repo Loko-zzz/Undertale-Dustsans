@@ -6,10 +6,10 @@ botao.addEventListener('click', function() {
 
   // Adiciona ou remove a classe "escuro" do body
   // classList.toggle = "se não tem, coloca; se já tem, tira"
-  document.body.classList.toggle('Modo Killer');
+  document.body.classList.toggle('Killer');
 
   // Muda o texto do botão dependendo do tema atual
-  if (document.body.classList.contains('Modo Killer')) {
+  if (document.body.classList.contains('Killer')) {
     botao.textContent = '☀️ Modo claro';
   } else {
     botao.textContent = '🌙 Modo Killer';
