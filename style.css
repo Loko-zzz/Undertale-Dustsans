@@ -10,8 +10,8 @@ body {
 
 /* ── Modo escuro (ativado pelo JS) ── */
 body.Killer {
-  background-color: #red;
-  color: #purple;
+  background-color: #fff000;
+  color: #880080;
 }
 
 /* ── Header ── */
