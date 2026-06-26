@@ -17,6 +17,8 @@ botao.addEventListener('click', function() {
 
 });
 
+//coisas opcionais talvez aoague
+
 // Seleciona o botão e as imagens
 const botao = document.getElementById('btnTroca');
 const imagens = document.querySelectorAll('article img');
@@ -32,9 +34,4 @@ botao.addEventListener('click', () => {
         if (novasImagens[index]) {
             img.src = novasImagens[index];
         }
-    });
-    
-    // Opcional: mudar o texto do botão ou estilo para o "Modo Killar"
-    botao.textContent = "🔪 Modo Killer";
-    document.body.style.backgroundColor = "#ff000"; // Exemplo de clima sombrio
-});
+    }};
