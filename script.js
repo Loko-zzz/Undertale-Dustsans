@@ -15,23 +15,3 @@ botao.addEventListener('click', function() {
     botao.textContent = '🔪 Modo Killer';
   }
 
-});
-
-//coisas opcionais talvez aoague
-
-// Seleciona o botão e as imagens
-const botao = document.getElementById('btnTroca');
-const imagens = document.querySelectorAll('article img');
-
-// Define as novas URLs que você deseja mostrar ao clicar
-const novasImagens = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFNb0w3gxxVGMNLuXaMY3qz6izYXTwvvwgdvZNECPymg&s=10",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfuS_LvtC4Wm7OYpCIa65yaOVXokz4plVNnoykiMNw2g&s=10"
-];
-
-botao.addEventListener('click', () => {
-    imagens.forEach((img, index) => {
-        if (novasImagens[index]) {
-            img.src = novasImagens[index];
-        }
-    }};
