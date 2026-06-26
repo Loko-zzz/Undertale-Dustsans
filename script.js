@@ -13,5 +13,6 @@ botao.addEventListener('click', function() {
     botao.textContent = '☀️ Modo claro';
   } else {
     botao.textContent = '🔪 Modo Killer';
-  }
+
+  });
 
